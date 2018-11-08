@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Movie Collection</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_import_movie">ImportMovieActivity</string>
+
+
+    <string name="insert_movie_item">Insert movie</string>
+    <string name="update_movie_item">Update movie</string>
+    <string name="delete_movie_item">Delete movie</string>
+    <string name="show_all_movies_item">Show all movies</string>
+    <string name="show_top_movies_item">Show top 3 movies</string>
+    <string name="show_bottom_movies_item">Show bottom 3 movies</string>
+
+
+    <string name="update_movie_textview">Which movie do you want to update?</string>
+    <string name="delete_movie_textview">Which movie do you want to delete?</string>
+    <string name="insert_movie_textview">Which movie do you want to insert?</string>
+    <string name="change_movie_textview">What do you want to change?</string>
+    <string name="title_textview">Title:</string>
+    <string name="title_edittext">Title</string>
+    <string name="year_textview">Year of release:</string>
+    <string name="year_edittext">Year</string>
+    <string name="rating_textview">Choose how much you like it:</string>
+    <string name="save_button">Save</string>
+    <string name="delete_button">Delete</string>
+    <string name="update_button">Edit</string>
+
+
+    <string name="movie_deleted_toast">Movie</string>
+    <string name="movie_deleted_toast2">deleted</string>
+    <string name="movie_edited_toast">Movie</string>
+    <string name="movie_edited_toast2">edited</string>
+    <string name="no_match_found_toast">No match found</string>
+    <string name="movie_exists_toast">Movie already exists</string>
+    <string name="saved_toast">Saved</string>
+    <string name="error_toast">Error occurred</string>
+
+    <string name="no_title_year_toast">You did not enter title and year</string>
+    <string name="no_title_toast">You did not enter title</string>
+    <string name="no_year_toast">You did not enter year</string>
+    <string name="wrong_year_toast">Year must be between 1878 and 2020</string>
+
+    <string name="about"><b>About</b></string>
+    <string name="code"><b>Code:</b></string>
+    <string name="sotiria"><i>Sotiria Antaranian</i></string>
+    <string name="alexia"><i>Alexia Fytili</i></string>
+    <string name="version"><b>Version:</b> 1.0.0</string>
+
+    <string name="show">Show</string>
+    <string name="show_all_movies">All movies:</string>
+    <string name="show_top_movies">Top 3 movies:</string>
+    <string name="show_bottom_movies">Bottom 3 movies:</string>
+</resources>

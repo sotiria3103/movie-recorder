@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.movierecorder.ShowTopMoviesActivity">
+
+    <TextView
+        android:text="@string/show_top_movies"
+        style="@style/generalStyle"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView6" />
+
+    <ListView android:layout_height="wrap_content" android:id="@+id/listView1"
+        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"></ListView>
+
+</RelativeLayout>

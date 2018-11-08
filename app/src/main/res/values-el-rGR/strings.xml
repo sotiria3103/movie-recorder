@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Συλλογή ταινιών</string>
+
+    <string name="insert_movie_item">Εισαγωγή ταινίας</string>
+    <string name="update_movie_item">Τροποποίηση ταινίας</string>
+    <string name="delete_movie_item">Διαγραφή ταινίας</string>
+    <string name="show_all_movies_item">Εμφάνιση όλων των ταινιών</string>
+    <string name="show_top_movies_item">Εμφάνιση των 3 κορυφαίων ταινιών</string>
+    <string name="show_bottom_movies_item">Εμφάνιση των 3 τελευταίων ταινιών</string>
+
+    <string name="update_movie_textview">Ποια ταινία θέλεις να τροποποιήσεις;</string>
+    <string name="delete_movie_textview">Ποια ταινία θέλεις να διαγράψεις;</string>
+    <string name="insert_movie_textview">Ποια ταινία θέλεις να εισάγεις;</string>
+    <string name="change_movie_textview">Τι θέλεις να αλλάξεις;</string>
+    <string name="title_textview">Τίτλος:</string>
+    <string name="title_edittext">Τίτλος</string>
+    <string name="year_textview">Έτος παραγωγής:</string>
+    <string name="year_edittext">Έτος</string>
+    <string name="rating_textview">Πόσο σου άρεσε;</string>
+    <string name="save_button">Αποθήκευση</string>
+    <string name="delete_button">Διαγραφή</string>
+    <string name="update_button">Αποθήκευση</string>
+
+    <string name="movie_deleted_toast">Η ταινία</string>
+    <string name="movie_deleted_toast2">διαγράφηκε</string>
+    <string name="movie_edited_toast">Η ταινία</string>
+    <string name="movie_edited_toast2">τροποποιήθηκε</string>
+    <string name="no_match_found_toast">Δεν βρέθηκε η ταινία</string>
+    <string name="movie_exists_toast">Η ταινία υπάρχει ήδη</string>
+    <string name="saved_toast">Αποθηκεύτηκε</string>
+    <string name="error_toast">Σφάλμα</string>
+
+    <string name="no_title_year_toast">Δεν έδωσες τίτλο και έτος</string>
+    <string name="no_title_toast">Δεν έδωσες τίτλο</string>
+    <string name="no_year_toast">Δεν έδωσες έτος</string>
+    <string name="wrong_year_toast">Το έτος παραγωγής πρέπει να είναι ανάμεσα στο 1878 και στο 2020</string>
+
+    <string name="about"><b>Σχετικά με εμάς</b></string>
+    <string name="code"><b><i>Κώδικας:</i></b></string>
+    <string name="sotiria"><i>Σωτηρία Ανταρανιάν</i></string>
+    <string name="alexia"><i>Αλεξία Φυτιλή</i></string>
+    <string name="version"><b><i>Version:</i></b> 1.0.0</string>
+
+    <string name="show">Εμφάνιση</string>
+    <string name="show_all_movies">Όλες οι ταινίες:</string>
+    <string name="show_top_movies">3 κορυφαίες ταινίες:</string>
+    <string name="show_bottom_movies">3 τελευταίες ταινίες:</string>
+</resources>

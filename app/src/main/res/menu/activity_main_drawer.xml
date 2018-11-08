@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_insert_movie"
+            android:icon="@drawable/import_movie"
+            android:title="@string/insert_movie_item" />
+        <item
+            android:id="@+id/nav_update_movie"
+            android:icon="@drawable/update_movie"
+            android:title="@string/update_movie_item" />
+        <item
+            android:id="@+id/nav_delete_movie"
+            android:icon="@drawable/delete_movie"
+            android:title="@string/delete_movie_item" />
+    </group>
+
+    <item android:title="@string/show">
+        <menu>
+            <item
+                android:id="@+id/nav_show_all"
+                android:icon="@drawable/list_of_movies"
+                android:title="@string/show_all_movies_item" />
+            <item
+                android:id="@+id/nav_show_top"
+                android:icon="@drawable/list_of_movies"
+                android:title="@string/show_top_movies_item" />
+            <item
+                android:id="@+id/nav_show_bottom"
+                android:icon="@drawable/list_of_movies"
+                android:title="@string/show_bottom_movies_item" />
+        </menu>
+    </item>
+
+</menu>
