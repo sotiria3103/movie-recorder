@@ -32,7 +32,7 @@ public class ShowAllMoviesActivity extends AppCompatActivity {
         dbHelper.allMovies();
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, ArrayofName); //to simple list item einai etoimo xml,den einai kapoio pou eftia3a egw
+                android.R.layout.simple_list_item_1, ArrayofName); 
 
         listView.setAdapter(adapter);
 
