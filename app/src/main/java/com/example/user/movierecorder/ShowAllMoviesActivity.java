@@ -36,7 +36,6 @@ public class ShowAllMoviesActivity extends AppCompatActivity {
 
         listView.setAdapter(adapter);
 
-        //otan patas panw emfanizei toast me ton titlo,to etos kai to score
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
                 Toast.makeText(getApplicationContext(), ((TextView) v).getText(), Toast.LENGTH_SHORT).show();
